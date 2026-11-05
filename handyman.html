@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Integritetspolicy & Ansvarsfriskrivning - Handyman</title>
+    <title>Integritetspolicy &amp; Ansvarsfriskrivning - Handyman</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -42,53 +42,78 @@
     </style>
 </head>
 <body>
+    <h1>Integritetspolicy &amp; Ansvarsfriskrivning för Handyman</h1>
+    <p><strong>Senast uppdaterad:</strong> 5 november 2026</p>
 
-    <h1>Integritetspolicy & Ansvarsfriskrivning för Handyman</h1>
-    <p><strong>Senast uppdaterad:</strong> 28 oktober 2026</p>
-
-    <p>Din integritet är viktig för oss. Denna policy förklarar hur <strong>Handyman</strong> (utgiven av FloppyAI) hanterar information, användning av enhetssensorer samt ansvarsfriskrivning gällande appens beräkningar, datakällor och finansiella funktioner.</p>
+    <p>Din integritet är viktig för oss. Denna policy förklarar hur <strong>Handyman</strong> (utgiven av FloppyAI) hanterar information, använder enhetens sensorer och behörigheter samt vilka ansvarsfriskrivningar som gäller för appens beräkningar, datakällor och finansiella funktioner.</p>
 
     <hr>
 
     <div class="disclaimer-box">
         <h2>1. Ansvarsfriskrivning (Disclaimer)</h2>
         <p><strong>Aktiekurser, finansiell data och nyheter:</strong> Appen hämtar aktiekurser, valutakurser och nyheter via öppna, kostnadsfria och inofficiella tredjepartskällor. Data kan vara fördröjd, ofullständig eller innehålla felaktigheter. Appen och dess utvecklare lämnar inga garantier för uppgifternas korrekthet och tar inget ansvar för finansiella beslut, förluster eller skador som uppstår till följd av användning av denna data.</p>
-        <p><strong>Bygg-, el- och tekniska kalkyler:</strong> Verktyg och kalkylatorer i appen (såsom kabelarea, betongkalkylator, daggpunkt, takbelastning m.fl.) är endast avsedda som vägledande uppskattningar. De ersätter inte professionella bygg- eller el-tekniska beräkningar utförda av behörig fackman.</p>
+        <p><strong>Bygg-, el- och tekniska kalkyler:</strong> Verktyg och kalkylatorer i appen (såsom kabelarea, betongkalkylator, daggpunkt, takbelastning m.fl.) är endast avsedda som vägledande uppskattningar. De ersätter inte professionella bygg- eller eltekniska beräkningar utförda av behörig fackman.</p>
+        <p><strong>Hastighet, g-kraft och beräkningar:</strong> Hastighetsmätare, g-kraftsmätare, solcellsberäkningar och norrskensprognoser är ungefärliga och ska inte användas där fel kan orsaka skada, till exempel för trafiksäkerhet eller navigering.</p>
     </div>
 
     <h2>2. Insamling och användning av data</h2>
-    <p>Handyman samlar inte in eller lagrar några personuppgifter på externa servrar. Alla inställningar, sparade favoriter och inmatade värden sparas endast lokalt på din enhet.</p>
-
-    <h2>3. Användning av enhetens sensorer och behörigheter</h2>
-    <p>För att tillhandahålla sina verktyg och funktioner kan Handyman begära åtkomst till följande funktioner på din enhet (all bearbetning sker lokalt):</p>
+    <p>FloppyAI driver inga egna servrar för att samla in eller lagra dina personuppgifter. Inställningar, sparade favoriter och inmatade värden sparas endast lokalt på din enhet.</p>
+    <p>Viss information lämnar ändå enheten när appen hämtar data från nätet eller visar annonser. Det gäller:</p>
     <ul>
-        <li><strong>Sensorer (Barometer, Accelerometer, Ljussensor m.fl.):</strong> Används lokalt för mätverktyg som barometertryck, nivå/vattenpass, lyxmeter och miljöanalys. Ingen sensordata skickas vidare.</li>
-        <li><strong>Nätverk & Wi-Fi:</strong> Används för funktioner som nätverksdiagnos, ping-test och portskanning på ditt lokala nätverk, samt för att hämta väderdata, valutakurser och aktiekurser.</li>
-        <li><strong>Batteri & Systemdiagnostik:</strong> Används för att visa batteristatus och enhetsinformation.</li>
-        <li><strong>Platsdata (valfritt):</strong> Kan användas lokalt för beräkning av sol- och måntider samt väderprognoser för din nuvarande position.</li>
+        <li><strong>Plats:</strong> se avsnitt 3.</li>
+        <li><strong>Data som samlas in av Google AdMob:</strong> se avsnitt 4.</li>
+        <li><strong>Tekniska uppgifter vid nätverksanrop:</strong> när appen hämtar väder, kurser eller nyheter tar tjänsten emot din IP-adress och den förfrågan som görs.</li>
+    </ul>
+
+    <h2>3. Sensorer och behörigheter</h2>
+    <p><strong>Plats (valfritt):</strong> Om du ger appen behörighet kan den använda din exakta eller ungefärliga plats.</p>
+    <ul>
+        <li><strong>Används endast på enheten:</strong> sol- och måntider, norrskensbedömning, solcellsberäkning, hastighetsmätare och visning av GPS-koordinater. Appen skickar inte dina koordinater någonstans för dessa funktioner. Norrskensprognosen hämtas som en global prognos från NOAA, utan din position.</li>
+        <li><strong>Skickas till en extern tjänst:</strong> För vindkyla och daggpunkt skickas dina koordinater till <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo</a> för att hämta väderdata för din position. FloppyAI tar inte emot och sparar inte dessa koordinater.</li>
+        <li><strong>Annonser:</strong> Appen lämnar inte själv över din position till annonsförfrågningar, men Google AdMob samlar in din IP-adress, som kan användas för att uppskatta din ungefärliga plats. Se avsnitt 4.</li>
+    </ul>
+    <p>Du kan när som helst återkalla platsbehörigheten i enhetens inställningar. Funktioner som kräver plats fungerar då inte, men övriga delar av appen kan fortfarande användas.</p>
+    <ul>
+        <li><strong>Sensorer (barometer, accelerometer, ljussensor m.fl.):</strong> Används för mätverktyg som barometertryck, nivå/vattenpass, luxmeter, g-kraft och miljöanalys. Sensordata behandlas lokalt och skickas inte vidare.</li>
+        <li><strong>Nätverk och Wi-Fi:</strong> Används för nätverksdiagnos, ping-test och portskanning på ditt lokala nätverk, för hastighetstest samt för att hämta väderdata, valutakurser, aktiekurser och nyheter.</li>
+        <li><strong>Kamera:</strong> Används för streckkods- och QR-läsning samt AR-mätning. Handyman sparar inte kamerabilderna och skickar dem inte vidare.</li>
+        <li><strong>Mikrofon:</strong> Används för ljudnivåmätaren. Ljudet behandlas lokalt, spelas inte in och skickas inte vidare.</li>
+        <li><strong>Batteri och systemdiagnostik:</strong> Används för att visa batteristatus och enhetsinformation.</li>
     </ul>
 
     <h2>4. Tredjepartstjänster och annonser</h2>
-    <p>Appen använder tredjepartstjänster som kan samla in anonymiserad information som används för att identifiera din enhet i syfte att leverera tjänster och annonser:</p>
+    <p>Appen använder följande tjänster, som behandlar uppgifter enligt sina egna villkor:</p>
     <ul>
-        <li><strong>Google Play Services:</strong> För grundläggande appfunktionalitet och köp i appen.</li>
-        <li><strong>Google AdMob:</strong> För visning av annonser. AdMob kan använda anonyma identifierare för att anpassa annonser. Läs mer om Googles sekretesspolicy <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">här</a>.</li>
-        <li><strong>Google Play Billing:</strong> För hantering av engångsköp (t.ex. för att ta bort annonser). Alla betalningar hanteras säkert av Google Play.</li>
+        <li><strong>Google AdMob:</strong> Visar annonser. AdMob samlar in och delar IP-adress och den ungefärliga plats som kan uppskattas från den, annons-ID, app set-ID och andra identifierare, interaktioner i appen (till exempel appstart, tryck och videovisningar) samt diagnostikdata. Uppgifterna används för annonsering, analys och för att förhindra bedrägerier.</li>
+        <li><strong>Google Play Services:</strong> För grundläggande appfunktioner och köp i appen.</li>
+        <li><strong>Google Play Billing:</strong> För engångsköp, till exempel för att ta bort annonser. Betalningar hanteras av Google Play, och FloppyAI får inte tillgång till dina kortuppgifter.</li>
+        <li><strong>Google ML Kit:</strong> För streckkods- och QR-läsning. Tjänsten kan behandla tekniska uppgifter enligt Googles villkor.</li>
+        <li><strong>Google Play Services for AR (ARCore):</strong> För AR-mätning. Denna app körs på Google Play Services for AR (ARCore), som tillhandahålls av Google och omfattas av Googles integritetspolicy.</li>
+        <li><strong>Open-Meteo:</strong> Väderdata. Tar emot dina koordinater och din IP-adress.</li>
+        <li><strong>NOAA:</strong> Global norrskensprognos. Tar emot din IP-adress, men inte dina koordinater.</li>
+        <li><strong>Yahoo Finance:</strong> Aktiekurser och nyheter. Tar emot din IP-adress och de aktier du söker på eller följer.</li>
+        <li><strong>Frankfurter:</strong> Valutakurser. Tar emot din IP-adress och de valutor du väljer.</li>
+        <li><strong>Cloudflare:</strong> Hastighetstest. Tar emot din IP-adress och testdata.</li>
     </ul>
+    <p>Läs mer i <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Googles integritetspolicy</a> och om <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">hur Google använder data från appar</a>.</p>
+    <p>Där det krävs, till exempel inom EU, visar appen en samtyckesruta för annonser innan annonser laddas. Du kan också återställa eller radera ditt annons-ID och begränsa annonsanpassning i enhetens inställningar.</p>
 
     <h2>5. Bakgrundsuppdateringar</h2>
     <p>Om automatiska bakgrundsuppdateringar (t.ex. för aktiekurser) är aktiverade körs korta bakgrundsjobb med jämna mellanrum via Androids systemtjänster. Du kan när som helst stänga av bakgrundsuppdateringar i appens inställningar.</p>
 
-    <h2>6. Ändringar i denna policy</h2>
-    <p>Vi kan uppdatera vår integritetspolicy från tid till annan. Du uppmanas därför att granska denna sida regelbundet för eventuella ändringar.</p>
+    <h2>6. Radering av data och dina rättigheter</h2>
+    <p>Data som sparas lokalt tas bort när du rensar appens data eller avinstallerar appen. FloppyAI har inget konto kopplat till dig och lagrar inga uppgifter om dig på egna servrar, och kan därför normalt inte identifiera eller radera uppgifter om dig.</p>
+    <p>Uppgifter hos Google och andra tjänster hanteras av respektive leverantör enligt deras villkor. Du har rätt att begära information om, rättelse eller radering av dina personuppgifter hos den som behandlar dem, och att klaga hos Integritetsskyddsmyndigheten (IMY).</p>
 
-    <h2>7. Kontakt</h2>
-    <p>Om du har några frågor om denna integritetspolicy eller appen, kan du kontakta oss på:</p>
+    <h2>7. Ändringar i denna policy</h2>
+    <p>Vi kan uppdatera denna policy från tid till annan. Datumet högst upp visar när den senast ändrades, och vi uppmanar dig att granska sidan regelbundet.</p>
+
+    <h2>8. Kontakt</h2>
+    <p>Om du har frågor om denna policy eller appen kan du kontakta oss på:</p>
     <p>E-post: <a href="mailto:floppyai.dev@gmail.com">floppyai.dev@gmail.com</a></p>
 
     <footer>
         <p>&copy; 2026 FloppyAI. Alla rättigheter förbehållna.</p>
     </footer>
-
 </body>
 </html>
